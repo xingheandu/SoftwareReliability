@@ -1,7 +1,6 @@
 package com.view.main;
 
 import java.awt.BorderLayout;
-import java.awt.MenuItem;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -16,20 +15,11 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JSplitPane;
 import javax.swing.JTree;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
-import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
-import javax.swing.filechooser.FileView;
 import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.TreePath;
 import javax.swing.tree.TreeSelectionModel;
-import javax.xml.bind.annotation.XmlElementDecl.GLOBAL;
-
-import org.jfree.data.xy.XYSeries;
-import org.jfree.ui.ExtensionFileFilter;
 
 import com.global.GlobalVar;
 import com.parameter.BPParameter;
@@ -40,7 +30,6 @@ import com.parameter.SVMParameter;
 import com.type.ModelType;
 import com.view.console.ConsolePanel;
 import com.view.data.DataPanel;
-import com.view.login.LoginMainView;
 import com.view.node.MLModelPanel;
 import com.view.node.ModelPanel;
 import com.view.node.ModelSyntheticalPanel;

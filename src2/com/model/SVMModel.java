@@ -1,8 +1,5 @@
 package com.model;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -131,4 +128,4 @@ public class SVMModel {
 	    
 	    return diagram;
 	}
-}
+};
